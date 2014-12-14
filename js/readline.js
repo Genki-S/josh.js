@@ -229,6 +229,9 @@ Josh.Version = "0.2.10";
         _text = line.text;
         _cursor = line.cursor;
         refresh();
+      },
+      acceptLine: function() {
+        cmdDone();
       }
     };
 
